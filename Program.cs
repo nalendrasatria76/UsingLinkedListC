@@ -1,4 +1,5 @@
 ﻿using System;
+using UsingLinkedList;
 
 namespace UsingLinkedList
 {
@@ -11,5 +12,13 @@ namespace UsingLinkedList
             info = i;
             next = n; 
         }
+    }
+}
+class Stacks
+{
+    Node top;
+    public Stacks()
+    {
+        top = null;
     }
 }
